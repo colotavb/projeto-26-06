@@ -14,24 +14,24 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "",
+        enunciado: "Você prefere cursar uma faculdade tradicional presencial ou uma que ofereça ensino a distância?",
         alternativas: [
-            { texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.", pontuacao: 2 },
-            { texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendo a importância de proteger os trabalhadores.", pontuacao: 1 }
+            { texto: "Tradicional,claro!", pontuacao: 2 },
+            { texto: "A distância, com certeza!", pontuacao: 2 }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "O que você acha sobre mudar de curso no meio da faculdade?",
         alternativas: [
-            { texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.", pontuacao: 1 },
-            { texto: "Criar uma imagem utilizando um gerador de imagem de IA.", pontuacao: 2 }
+            { texto: "Esta tudo bem, as vezes escolhemos o curso errado!", pontuacao: 3 },
+            { texto: "Não apoio atitudes assim!", pontuacao: 2 }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Você gostaria de fazer faculdade pública ou privada?",
         alternativas: [
-            { texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.", pontuacao: 1 },
-            { texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.", pontuacao: 2 }
+            { texto: "Pública, na Federal!", pontuacao: 4 },
+            { texto: "Privada, claro!", pontuacao: 3 }
         ]
     }
 ];
